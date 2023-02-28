@@ -32,13 +32,22 @@ Then From “My schedule”, find out the class number. Go to “search all clas
     <img height="300px" src="pictures/myucsc3.png" width="450" height="300">
 </p>
 
-Now you have downloaded the data you need. Go to next section "Data Cleaning" to find the `R` code to clean the data.
+Now you have downloaded the data you need. Go to next section "Data Cleaning" to find the *R* code to clean the data.
 
 </p>
 </details>
 
 <details><summary>Data Cleaning</summary>
 <p>
+
+First of all, you need to re-save all the downloaded data to *.csv* file.
+
+```
+# first
+dta_1 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/121.csv')
+dta_2 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/122.csv')
+
+```
 
 </p>
 </details>
