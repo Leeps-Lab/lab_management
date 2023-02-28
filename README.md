@@ -5,7 +5,7 @@
 ### Acquiring Subjects Information
 First of all, go to "My UCSC". On the top, change “student homepage” to “faculty homepage”. 
 
-<img src="pictures/myucsc1.png" width=50% height=50%>
+<img src="https://github.com/zhaoqiwang1/Leeps_Management/pictures/myucsc1.png" width=50% height=50%>
 
 Then click on “Faculty Center”:
 
