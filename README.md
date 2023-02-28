@@ -23,13 +23,13 @@ First of all, go to "My UCSC". On the top, change “student homepage” to “f
 Then click on “Faculty Center”:
 
 <p align="center">
-    <img style="max-width: 400px; height: auto; " src="pictures/myucsc2.png">
+    <img style="max-width: 500px; height: auto; " src="pictures/myucsc2.png">
 </p>
 
 Then From “My schedule”, find out the class number. Go to “search all class rosters”, enter that class number (be careful with the terms, search the right terms you are looking for, otherwise there is not result). You’ll see the list of all students in that class. On the same page, you will find a option to download students' information as an excel sheet, click that to download it. See below:
 
 <p align="center">
-    <img style="max-width: 400px; height: auto; " src="pictures/myucsc3.png">
+    <img style="max-width: 500px; height: auto; " src="pictures/myucsc3.png">
 </p>
 
 Now you have downloaded the data you need. Go to next section "Data Cleaning" to find the <code>R</code> code to clean the data.
@@ -127,6 +127,81 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
     <img style="max-width: 300px; height: auto; " src="pictures/email1.png">
 </p>
 
+<p>1.2. Click on "Create a List"</p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email2.png">
+</p>
+
+<p>1.3. Assign it a name describing the current number of batch</p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email3.png">
+</p>
+
+<p>1.4. Choose Upload a File </p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email4.png">
+</p>
+
+<p>1.5. Choose the right delimiter</p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email5.png">
+</p>
+
+
+<p>1.6. For the First/LastName and Email fields, choose manually their respective categories and click on Upload the File. </p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email6.png">
+</p>
+
+<p>1.7. Click on Add your contacts. </p>
+
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email7.png">
+</p>
+
+<p> 2. Sending the emails </p>
+<p> 2.1. Go to the Test project from Qualtrics. </p>
+
+<p align="center">
+    <img style="max-width: 500px; height: auto; " src="pictures/email8.png">
+</p>
+
+<p>2.2. Click on Distributions. </p>
+
+<p align="center">
+    <img style="max-width: 400px; height: auto; " src="pictures/email9.png">
+</p>
+
+<p> 2.3. Click on Emails. </p>
+
+<p align="center">
+    <img style="max-width: 400px; height: auto; " src="pictures/email10.png">
+</p>
+
+<p> 2.4. Click on Compose email. </p>
+
+<p align="center">
+    <img style="max-width: 400px; height: auto; " src="pictures/email11.png">
+</p>
+
+<p>2.5. Fill the requested fields with its respective information. </p>
+
+<p align="center">
+    <img style="max-width: 400px; height: auto; " src="pictures/email12.png">
+</p>
+
+<p>2.6. Choose the contacts you would like to send the email to. </p>
+
+<p align="center">
+    <img style="max-width: 400px; height: auto; " src="pictures/email13.png">
+</p>
+
+<p> 2.7. Choose when to send the email and send the email. </p>
 
 </p>
 </details>
