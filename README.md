@@ -130,7 +130,7 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 <p>1.2. Click on "Create a List"</p>
 
 <p align="center">
-    <img style="max-width: 600px; height: auto; " src="pictures/email2.png">
+    <img style="max-width: 900px; height: auto; " src="pictures/email2.png">
 </p>
 
 <p>1.3. Assign it a name describing the current number of batch</p>
@@ -168,7 +168,7 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 <p> 2.1. Go to the Test project from Qualtrics. </p>
 
 <p align="center">
-    <img style="max-width: 600px; height: auto; " src="pictures/email8.png">
+    <img style="max-width: 1000px; height: auto; " src="pictures/email8.png">
 </p>
 
 <p>2.2. Click on Distributions. </p>
@@ -186,19 +186,19 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 <p> 2.4. Click on Compose email. </p>
 
 <p align="center">
-    <img style="max-width: 600px; height: auto; " src="pictures/email11.png">
+    <img style="max-width: 1000px; height: auto; " src="pictures/email11.png">
 </p>
 
 <p>2.5. Fill the requested fields with its respective information. </p>
 
 <p align="center">
-    <img style="max-width: 600px; height: auto; " src="pictures/email12.png">
+    <img style="max-width: 1000px; height: auto; " src="pictures/email12.png">
 </p>
 
 <p>2.6. Choose the contacts you would like to send the email to. </p>
 
 <p align="center">
-    <img style="max-width: 600px; height: auto; " src="pictures/email13.png">
+    <img style="max-width: 1000px; height: auto; " src="pictures/email13.png">
 </p>
 
 <p> 2.7. Choose when to send the email and send the email. </p>
