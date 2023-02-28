@@ -90,14 +90,27 @@ write.csv(students_s1,"D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/c
   </code>
 </pre>
 
-The above code explains steps to divide the first 300 students into a new <code>.csv</code> file. Of course, you need to repeat that many times until you divide all your <code>dta_unique</code> into many separate <code>.csv</code> files. Those files, named as "students_s1", "students_s2", "students_s3", and so on, are the <code>.csv</code> you need to use to send out mass emails each day.
+The above code explains steps to divide the first 300 students into a new <code>.csv</code> file. Of course, you need to repeat that many times until you divide all your <code>dta_unique</code> into many separate <code>.csv</code> files. Those files, named as "students_s1", "students_s2", "students_s3", and so on, are the <code>.csv</code> you need to use to send out mass emails each day. 
 
+Note that adding your own email is necessary because you need to receive the email everyday yourself to check if the email was sent successfully. Including Kristian and Leeps as well so that they are both informed.
+
+Now, you have all the data ready. Follow the steps in next section to send out mass emails everyday.
 
 </p>
 </details>
 
 <details><summary>Recruiting New Subjects via Email</summary>
 <p>
+We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to send out the emails. Click the link and you need to login using the following user id and password:
+
+<p>ID: leeps <br> Password: "You know it..."</p>
+
+Follow the steps to prepare and send the emails.
+
+### 1. Prepare Emails
+#### 1.1. Go to Directories
+
+
 
 </p>
 </details>
