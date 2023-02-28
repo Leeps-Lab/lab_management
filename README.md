@@ -42,13 +42,13 @@ Now you have downloaded the data you need. Go to next section "Data Cleaning" to
 
 First of all, you need to re-save all the downloaded data to *.csv* file.
 
-```r
+~~~r
 
 # first
 dta_1 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/121.csv')
 dta_2 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/122.csv')
 
-```
+~~~
 
 <p>
 
