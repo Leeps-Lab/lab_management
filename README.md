@@ -17,19 +17,19 @@
 First of all, go to "My UCSC". On the top, change “student homepage” to “faculty homepage”. See below:
 
 <p align="center">
-    <img height="300px" src="pictures/myucsc1.png" width="450" height="350">
+    <img style="max-width: 400px; height: auto; " src="pictures/myucsc1.png">
 </p>
 
 Then click on “Faculty Center”:
 
 <p align="center">
-    <img height="300px" src="pictures/myucsc2.png" width="450" height="200">
+    <img style="max-width: 400px; height: auto; " src="pictures/myucsc2.png">
 </p>
 
 Then From “My schedule”, find out the class number. Go to “search all class rosters”, enter that class number (be careful with the terms, search the right terms you are looking for, otherwise there is not result). You’ll see the list of all students in that class. On the same page, you will find a option to download students' information as an excel sheet, click that to download it. See below:
 
 <p align="center">
-    <img height="300px" src="pictures/myucsc3.png" width="450" height="300">
+    <img style="max-width: 400px; height: auto; " src="pictures/myucsc3.png">
 </p>
 
 Now you have downloaded the data you need. Go to next section "Data Cleaning" to find the <code>R</code> code to clean the data.
@@ -109,7 +109,9 @@ Follow the steps to prepare and send the emails.
 
 ### 1. Prepare Emails
 #### 1.1. Go to Directories
-
+<p align="center">
+    <img style="max-width: 300px; height: auto; " src="pictures/email1.png">
+</p>
 
 
 </p>
