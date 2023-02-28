@@ -53,7 +53,7 @@ First of all, you need to re-save all the downloaded data to <code>.csv</code> f
 
 <pre>
   <code class = "language-r">
- # First, read your .csv data in R (two examples below):
+# First, read your .csv data in R (two examples below):
 dta_1 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/Econ1.csv')
 dta_2 <- read.csv(file = 'D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/all_data/Econ2.csv')
 
@@ -79,7 +79,7 @@ The following <code>R</code> explains how to divide them into smaller <code>.csv
 
 <pre>
   <code class = "language-r">
- # Your dta_unique contains tens of thousands of students. First, shuffle all your students id:
+# Your dta_unique contains tens of thousands of students. First, shuffle all your students id:
 dta_unique <- dta_unique[sample(nrow(dta_unique)),]
 
 # Then save the first 300 students into another separate .csv file and call it students_s1:
