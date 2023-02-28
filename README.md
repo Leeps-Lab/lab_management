@@ -34,6 +34,8 @@ Then From “My schedule”, find out the class number. Go to “search all clas
 
 Now you have downloaded the data you need. Go to next section "Data Cleaning" to find the <code>R</code> code to clean the data.
 
+<a href="#top">Back to top</a>
+
 </p>
 </details>
 
@@ -105,6 +107,8 @@ Note that adding your own email is necessary because you need to receive the ema
 <p>
 Now, you have all the data ready. Follow the steps in next section to send out mass emails everyday.
 </p>
+
+<a href="#top">Back to top</a>
 
 </p>
 </details>
@@ -202,6 +206,8 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 </p>
 
 <p> 2.7. Choose when to send the email and send the email. </p>
+
+<a href="#top">Back to top</a>
 
 </p>
 </details>
