@@ -60,9 +60,13 @@ dta_unique <- dta_unique[c(-1,-2,-7,-8,-9,-11,-12,-13)]
   </code>
 </pre>
 
+<p>
 <code>dta_1</code> and <code>dta_2</code> in the above code are data of Econ 1 and Econ 2. Of course, you will find a lot more classes than that. Say, you've found 100 classes from all different majors in total; each class has, on average, 200 students. In this case, your <code>dta_unique</code> will have approximately (but less than, due to excluding duplicated id) 20,000 unrepreated students. 
+</p>
 
+<p>
 The following <code>R</code> explains how to divide them into smaller <code>.csv</code> files that contain only 300 students each. When sending mass emails (see next section), you might want to constrain the number of emails to send out each day to 300, otherwise, google might automatically categorize the emails as spam.
+</p>
 
 <pre>
   <code class = "language-r">
@@ -90,26 +94,34 @@ write.csv(students_s1,"D:/zwang/Research/Leeps Lab/2023-winter-recruiting/data/c
   </code>
 </pre>
 
+<p>
 The above code explains steps to divide the first 300 students into a new <code>.csv</code> file. Of course, you need to repeat that many times until you divide all your <code>dta_unique</code> into many separate <code>.csv</code> files. Those files, named as "students_s1", "students_s2", "students_s3", and so on, are the <code>.csv</code> you need to use to send out mass emails each day. 
+</p>
 
+<p>
 Note that adding your own email is necessary because you need to receive the email everyday yourself to check if the email was sent successfully. Including Kristian and Leeps as well so that they are both informed.
+</p>
 
+<p>
 Now, you have all the data ready. Follow the steps in next section to send out mass emails everyday.
+</p>
 
 </p>
 </details>
 
 <details><summary>Recruiting New Subjects via Email</summary>
 <p>
+
+<p>
 We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to send out the emails. Click the link and you need to login using the following user id and password:
+</p>
 
 <p>ID: leeps <br> Password: "You know it..."</p>
 
-Follow the steps to prepare and send the emails.
+<p>Follow the steps to prepare and send the emails.</p>
 
-### 1. Prepare Emails
-
-#### 1.1. Go to Directories
+<p>1. Prepare Emails</p>
+<p>1.1 Go to Directories</p>
 
 <p align="center">
     <img style="max-width: 300px; height: auto; " src="pictures/email1.png">
