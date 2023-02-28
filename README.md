@@ -108,7 +108,9 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 Follow the steps to prepare and send the emails.
 
 ### 1. Prepare Emails
+
 #### 1.1. Go to Directories
+
 <p align="center">
     <img style="max-width: 300px; height: auto; " src="pictures/email1.png">
 </p>
