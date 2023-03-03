@@ -221,4 +221,109 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 
 ## Orsee Management
 
+<details><summary> Create a New Experiment </summary>
+<p>
+
+<p> 1. Login to Leeps Lab ORSEE.3. Then Click Experiments_My Experiments: </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit1.png">
+</p>
+
+<p> 2. If you are starting a new project with a new game, click “Add new experiment” at the center top of “My Experiment” box. Then you will reach the following pic. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit2.png">
+</p>
+
+<p> You can enter “Internal name” and “Public name” for your new project’s game and click “Add”. </p>
+
+<p> 3. If you want to run more experiments for existing projects (game), then in step 1, click the name of that project. Here I use None Bayesian Game as an example. Click “None Bayesian Game” and go to the following picture. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit3.png">
+</p>
+
+<p> Here, you can see how many experiments you’ve done for this project and the time of each experiment. If you plan to do another new experiment for this project, at “Sessions” box, click “Create new” to go next step. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit4.png">
+</p>
+
+<p> 4. Set the time you want for this experiment. For “Send session reminder email”, set “when as many participants registered as needed, else manually” so that it will send remind email to registered participants.
+
+“Required participants” is how many subjects you need for this experiment.
+
+“Reserve participants” is 2 or 3 extra participants in case required ones are not all coming. (We might need to reserve more participants after the pandemic)
+
+“Signup deadline (hours before start)”: set this “0” so that they can register and come anytime they want even if it’s 1 min before the game.
+
+“Session status”: when you are done with the above settings, set this “live”. (default is “planned”, but set it to “live”).
+
+Then click “Add”. </p>
+
+<p> 5. Then go back to step 3, which is the main page for None Bayesian Game. Go to “Participants” box and click “Send invitation emails”, which shows below. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit5.png">
+</p>
+
+<p> 6. Now you’ve reached the following figure. Don’t worry about anything, just click the very last button. 
+
+You are all set! </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit6.png">
+</p>
+
+</p>
+</details>
+
+<details><summary> Orsee "Options" </summary>
+<p>
+
+<p> "Options" in Orsee provide many tools for us to manage the Orsee system. Click that and go to the next a few sections to see what problems it can help us with. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_tools1.png">
+</p>
+
+</p>
+</details>
+
+<details><summary> What If the Email Queue Got Stuck? </summary>
+<p>
+
+<p> Go to "Options" and find the following "System Setup". 
+</p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_tools2.png">
+</p>
+
+<p> Click "Regular Tasks (cron)".
+
+Then from the figure below, find "process_mail_queue" and click "Run Now". This might help force the email to be sent out.
+</p>
+
+<p align="center">
+    <img style="max-width: 500px; height: auto; " src="pictures/orsee_tools3.png">
+</p>
+
+</p>
+</details>
+
+<details><summary> Other Useful Options </summary>
+<p>
+
+<p> Go to "Option", under "Communication and site content" (see figure below), we can change public content (what participants see from the orsee public website). Also, "Email Templates" is also helpful, we can use that to change email contents for each experiments. You can change the experiment type (online or in-person), change what you want to say in the reminder email, and so on. </p>
+
+<p align="center">
+    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_tools4.png">
+</p>
+
+</p>
+</details>
+
+
 ## Lab Software Tutorial
