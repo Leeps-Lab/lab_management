@@ -74,20 +74,21 @@ function myFunction() {
 
 --- 
 
-This is documentation is a brief introduction of some basic lab management for LEEPS lab, UCSC. 
+This documentation briefly introduces some basic lab management for LEEPS lab, UCSC. It explains how to recruit, expand, and maintain our subject pool. How to use Orsee. It also explains how we can use lab software to conduct economic experiments. 
 
 --- 
 
 <div class="content" id="subject_pool_management">
 <h2>Subject Pool Management</h2>  </div>
 
-This section introduces how should we maintain our subject pools for our lab. There are three steps we need to do:
+This section introduces how we should maintain our subject pools for our lab. There are three steps we need to do:
 
-Step 1: Find subjects' information. We need to use MyUCSC to download students' names and email addresses so that we can send them emails to invite them register into our Orsee system. 
+Step 1: Find the subjects' information. We need to use MyUCSC to download students' names and email addresses to send them emails to invite them to register into our Orsee system. 
 
-Step 2: Clean the data. The data we find from step 1 cannot be used directly for sending emails. We need to clean the date first using some <code> R </code> code. 
+Step 2: Clean the data. The data we find from step 1 cannot be used directly for sending emails. We must first clean the date using some <code> R </code> code. 
 
-Step 3: Send out mass emails for registration invitaiton. See step 3 below for details of how we do it.
+Step 3: Send out mass emails for registration invitations. See step 3 below for details of how we do it.
+
 
 <details><summary style="color:#66CC33;">   Acquiring Subjects Information </summary>
 <p>
@@ -297,7 +298,7 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 <div class="content" id="orsee_management">
 <h2>Orsee Management</h2>  </div>
 
-This section introduces some basic usage of Orsee system. The first part explains how to create a new experiment and invite subjects for the sessions. The last three parts explains some useful tools that can help us resolve some of the potential problems we might encounter when using Orsee. 
+This section introduces some basic usage of the Orsee system. The first part explains creating a new experiment and inviting subjects for the sessions. The last three parts explain some valuable tools to help us resolve potential problems when using Orsee. 
 
 <details><summary style="color:#66CC33;"> Create a New Experiment </summary>
 <p>
@@ -400,6 +401,14 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 <p align="center">
     <img style="max-width: 1000px; height: auto; " src="pictures/orsee_tools4.png">
 </p>
+
+</p>
+</details>
+
+<details><summary style="color:#66CC33;" > Contact Orsee </summary>
+<p>
+
+ORSEE was written by Professor <a href="http://orsee.wu.ac.at/wu/">Ben Greiner</a>. If we encounter some Orsee issues, we have tried our best and still could not fix the bugs by ourselves. We can try to contact him. 
 
 </p>
 </details>
