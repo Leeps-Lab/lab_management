@@ -22,7 +22,7 @@ Step 2: Clean the data. The data we find from step 1 cannot be used directly for
 
 Step 3: Send out mass emails for registration invitaiton. See step 3 below for details of how we do it.
 
-<details><summary style="color:#66CC33;">   Acquiring Subjects Information</p> </summary>
+<details><summary style="color:#66CC33;">   Acquiring Subjects Information </summary>
 <p>
 
 <p>
@@ -58,7 +58,7 @@ Now you have downloaded the data you need. Go to next section "Data Cleaning" to
 </p>
 </details>
 
-<details><summary style="color:#66CC33;" >  Data Cleaning </p> </summary>
+<details><summary style="color:#66CC33;" >  Data Cleaning </summary>
 <p>
 
 <p>
