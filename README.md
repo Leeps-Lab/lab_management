@@ -44,14 +44,16 @@ body {
 
 <body>
 
+<div class="content" id="stop"> </div>
+
 <div class="header" id="myHeader">
   <h2> <a href="#subject_pool_management">Subject Pool</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#orsee_management">Orsee</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="#lab_software_tutorial">Lab Software</a> </h2> 
 </div>
 
-<div class="back-to-top" style="height: 40px; width: 150px">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </div>
+<div class="back-to-top" style="height: 40px; width: 150px">  <a href="#top"> <font size="+1">Back To Top</font> </a>   </div>
 
-<a href="#myHeader"> <font size="+0" style="color:red;" >Back To Top</font> </a>
+<a href="#top"> <font size="+0" style="color:red;" >Back To Top</font> </a>
 
 <script>
 window.onscroll = function() {myFunction()};
@@ -407,6 +409,5 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 <div class="content" id="lab_software_tutorial">
 <h2>Lab Software Tutorial</h2>  </div>
 
-<a href="#myHeader"> <font size="+0" style="color:red;" >Back To Top</font> </a>
 
 
