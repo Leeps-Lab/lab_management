@@ -75,7 +75,7 @@ This is documentation is a brief introduction of some basic lab management for L
 --- 
 
 
-<button class="back-to-top" style="height: 40px; width: 150px">  <font size="+1">Back To Top</font> </button>
+<button href="#top" class="back-to-top" style="height: 40px; width: 150px">  <font size="+1">Back To Top</font> </button>
 
 <div class="content" id="subject_pool_management">
 <h2>Subject Pool Management</h2>  </div>
