@@ -38,8 +38,8 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h1> <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
-  <a href="#lab_software_tutorial">Lab_Software</a> </h1> 
+  <h1>  Introduction </h1> <!-- <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
+  <a href="#lab_software_tutorial">Lab_Software</a> </h1> --> 
 </div>
 
 <script>
