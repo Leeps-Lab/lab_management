@@ -49,7 +49,7 @@ body {
   <a href="#lab_software_tutorial">Lab Software</a> </h2> 
 </div>
 
-<button class="back-to-top" style="height: 40px; width: 150px">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </button>
+<div class="back-to-top" style="height: 40px; width: 150px">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </div>
 
 <script>
 window.onscroll = function() {myFunction()};
