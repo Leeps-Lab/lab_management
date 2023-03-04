@@ -32,6 +32,13 @@ body {
 .sticky + .content {
   padding-top: 102px;
 }
+
+.back-to-top {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+}
+
 </style>
 </head>
 
@@ -57,6 +64,7 @@ function myFunction() {
 }
 </script>
 
+
 </body>
 </html>
 
@@ -66,6 +74,8 @@ This is documentation is a brief introduction of some basic lab management for L
 
 --- 
 
+
+<button class="back-to-top">Back To Top</button>
 
 <div class="content" id="subject_pool_management">
 <h2>Subject Pool Management</h2>  </div>
