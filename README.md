@@ -44,14 +44,12 @@ body {
 
 <body>
 
-<a id="top"></a>
-
 <div class="header" id="myHeader">
   <h2> <a href="#subject_pool_management">Subject Pool</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <a href="#orsee_management">Orsee</a> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
   <a href="#lab_software_tutorial">Lab Software</a> </h2> 
 </div>
 
-<button class="back-to-top" style="height: 40px; width: 150px" href="#myHeader">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </button>
+<button class="back-to-top" style="height: 40px; width: 150px">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </button>
 
 <script>
 window.onscroll = function() {myFunction()};
