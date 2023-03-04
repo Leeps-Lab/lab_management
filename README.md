@@ -38,7 +38,7 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h2>Introduction</h2>
+  <h2>Introduction <a href="#div_id">jump link</a> </h2> 
 </div>
 
 <script>
@@ -404,5 +404,7 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 </p>
 </details>
 
+<div id="div_id">
+Lab Software Tutorial </div>
 
 ## Lab Software Tutorial
