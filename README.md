@@ -1,6 +1,6 @@
 # Introduction
 
-This is 
+This is documentation is a brief introduction of some basic lab management for LEEPS lab, UCSC. 
 
 --- 
 
@@ -14,7 +14,15 @@ This is
 
 ## Subject Pool Management
 
-<details><summary>Acquiring Subjects Information</summary>
+This section introduces how should we maintain our subject pools for our lab. There are three steps we need to do:
+
+Step 1: Find subjects' information. We need to use MyUCSC to download students' names and email addresses so that we can send them emails to invite them register into our Orsee system. 
+
+Step 2: Clean the data. The data we find from step 1 cannot be used directly for sending emails. We need to clean the date first using some <code> R </code> code. 
+
+Step 3: Send out mass emails for registration invitaiton. See step 3 below for details of how we do it.
+
+<details><summary style="color:#66CC33;">   Acquiring Subjects Information</p> </summary>
 <p>
 
 <p>
@@ -50,10 +58,12 @@ Now you have downloaded the data you need. Go to next section "Data Cleaning" to
 </p>
 </details>
 
-<details><summary>Data Cleaning</summary>
+<details><summary style="color:#66CC33;" >  Data Cleaning </p> </summary>
 <p>
 
+<p>
 First of all, you need to re-save all the downloaded data to <code>.csv</code> file. Then follow the <code>R</code> code below to clean the data.
+</p>
 
 <pre>
   <code class = "language-r">
@@ -124,7 +134,7 @@ Now, you have all the data ready. Follow the steps in next section to send out m
 </p>
 </details>
 
-<details><summary>Recruiting New Subjects via Email</summary>
+<details><summary style="color:#66CC33;">Recruiting New Subjects via Email</summary>
 <p>
 
 <p>
@@ -225,13 +235,16 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 
 ## Orsee Management
 
-<details><summary> Create a New Experiment </summary>
+This section introduces some basic usage of Orsee system. The first part explains how to create a new experiment and invite subjects for the sessions. The last three parts explains some useful tools that can help us resolve some of the potential problems we might encounter when using Orsee. 
+
+<details><summary style="color:#66CC33;"> Create a New Experiment </summary>
 <p>
+
 
 <p> 1. Login to Leeps Lab ORSEE.3. Then Click Experiments_My Experiments: </p>
 
 <p align="center">
-    <img style="max-width: 1000px; height: auto; " src="pictures/orsee_recruit1.png">
+    <img style="max-width: 1500px; height: auto; " src="pictures/orsee_recruit1.png">
 </p>
 
 <p> 2. If you are starting a new project with a new game, click “Add new experiment” at the center top of “My Experiment” box. Then you will reach the following pic. </p>
@@ -283,7 +296,7 @@ You are all set! </p>
 </p>
 </details>
 
-<details><summary> Orsee "Options" </summary>
+<details><summary style="color:#66CC33;" > Orsee "Options" </summary>
 <p>
 
 <p> "Options" in Orsee provide many tools for us to manage the Orsee system. Click that and go to the next a few sections to see what problems it can help us with. </p>
@@ -295,7 +308,7 @@ You are all set! </p>
 </p>
 </details>
 
-<details><summary> What If the Email Queue Got Stuck? </summary>
+<details><summary style="color:#66CC33;" > What If the Email Queue Got Stuck? </summary>
 <p>
 
 <p> Go to "Options" and find the following "System Setup". 
@@ -317,7 +330,7 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 </p>
 </details>
 
-<details><summary> Other Useful Options </summary>
+<details><summary style="color:#66CC33;" > Other Useful Options </summary>
 <p>
 
 <p> Go to "Option", under "Communication and site content" (see figure below), we can change public content (what participants see from the orsee public website). Also, "Email Templates" is also helpful, we can use that to change email contents for each experiments. You can change the experiment type (online or in-person), change what you want to say in the reminder email, and so on. </p>
