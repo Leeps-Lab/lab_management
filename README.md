@@ -38,7 +38,7 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h2>Introduction</h2> 
+  <h2>Introduction</h2> <h2 id="introduction-to-everything">Introduction to everything</h2>
 </div>
 
 <script>
@@ -59,6 +59,8 @@ function myFunction() {
 </body>
 </html>
 
+--- 
+
 This is documentation is a brief introduction of some basic lab management for LEEPS lab, UCSC. 
 
 --- 
@@ -71,6 +73,9 @@ This is documentation is a brief introduction of some basic lab management for L
 [Lab Software Tutorial](#lab-software-tutorial)
 
 --- 
+
+  <section id="introduction-to-everything">
+  <h2>Introduction to everything</h2>
 
 ## Subject Pool Management
 
