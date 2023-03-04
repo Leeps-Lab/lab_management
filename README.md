@@ -38,7 +38,7 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h1>  Introduction </h1> <!-- <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
+  <h2>Introduction</h2> <!-- <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
   <a href="#lab_software_tutorial">Lab_Software</a> </h1> --> 
 </div>
 
@@ -66,7 +66,7 @@ This is documentation is a brief introduction of some basic lab management for L
 
 --- 
 
-<div id="subject_pool_management">
+<div class="content" id="subject_pool_management">
 <h2>Subject Pool Management</h2>  </div>
 
 This section introduces how should we maintain our subject pools for our lab. There are three steps we need to do:
@@ -288,7 +288,7 @@ We use <a href="https://ucsantacruz.co1.qualtrics.com/">Qualtrics Website</a> to
 </p>
 </details>
 
-<div id="orsee_management">
+<div class="content" id="orsee_management">
 <h2>Orsee Management</h2>  </div>
 
 This section introduces some basic usage of Orsee system. The first part explains how to create a new experiment and invite subjects for the sessions. The last three parts explains some useful tools that can help us resolve some of the potential problems we might encounter when using Orsee. 
@@ -398,6 +398,6 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 </p>
 </details>
 
-<div id="lab_software_tutorial">
+<div class="content" id="lab_software_tutorial">
 <h2>Lab Software Tutorial</h2>  </div>
 
