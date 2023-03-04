@@ -38,7 +38,7 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h2>My Header</h2>
+  <h2>Introduction</h2> 
 </div>
 
 <script>
@@ -59,11 +59,10 @@ function myFunction() {
 </body>
 </html>
 
-# Introduction
-
 This is documentation is a brief introduction of some basic lab management for LEEPS lab, UCSC. 
 
 --- 
+
 
 [Subject Pool Management](#subject-pool-management)
 
