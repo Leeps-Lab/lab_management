@@ -407,3 +407,6 @@ Then from the figure below, find "process_mail_queue" and click "Run Now". This 
 <div class="content" id="lab_software_tutorial">
 <h2>Lab Software Tutorial</h2>  </div>
 
+<a href="#myHeader"> <font size="+0" style="color:red;" >Back To Top</font> </a>
+
+
