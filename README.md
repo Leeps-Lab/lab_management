@@ -51,6 +51,8 @@ body {
 
 <div class="back-to-top" style="height: 40px; width: 150px">  <a href="#myHeader"> <font size="+1">Back To Top</font> </a>   </div>
 
+<a href="#myHeader"> <font size="+0" style="color:red;" >Back To Top</font> </a>
+
 <script>
 window.onscroll = function() {myFunction()};
 
