@@ -1,3 +1,4 @@
+<html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -34,9 +35,14 @@ body {
 </style>
 </head>
 
+<body>
+
 <div class="header" id="myHeader">
   <h2>My Header</h2>
 </div>
+
+</body>
+</html>
 
 # Introduction
 
