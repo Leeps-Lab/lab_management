@@ -38,8 +38,8 @@ body {
 <body>
 
 <div class="header" id="myHeader">
-  <h2>Introduction</h2> <!-- <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
-  <a href="#lab_software_tutorial">Lab_Software</a> </h1> --> 
+  <h2> <a href="#subject_pool_management">Subject_Pool</a> <a href="#orsee_management">Orsee</a> 
+  <a href="#lab_software_tutorial">Lab_Software</a> </h2> 
 </div>
 
 <script>
@@ -65,6 +65,7 @@ function myFunction() {
 This is documentation is a brief introduction of some basic lab management for LEEPS lab, UCSC. 
 
 --- 
+
 
 <div class="content" id="subject_pool_management">
 <h2>Subject Pool Management</h2>  </div>
