@@ -417,4 +417,150 @@ ORSEE was written by Professor <a href="http://orsee.wu.ac.at/wu/">Ben Greiner</
 <h2>Lab Software Tutorial</h2>  </div>
 
 
+This section introduces some basic codes you need to use to run your game in lab's computers. The first subsection explains how to do it assuming you have already uploaded your game to the lab. The following subsections explains how to upload your game to lab's computer from LEEPS Github repository. 
+
+<details><summary style="color:#66CC33;" > How to Start a Session on lab's Computers </summary>
+<p>
+
+Here I assume you have already uploaded your game from your local computer to the lab's main computer. 
+
+First of all, you need to start your game on Lab's main computer. Please use the following code to execute.
+
+Open a command prompt and type the following code. Please note that the folder you use to store your game in the lab's computer might be different. Here, I use Zhaoqi's folder (zhaoqi-mb) as an example.
+
+<pre>
+  <code class = "language-r">
+source zhaoqi-mb/bin/activate
+cd Zhaoqi-MB/markets
+unset DATABASE_URL
+OTREE_PRODUCTION=1 otree runprodserver
+  </code>
+</pre>
+
+Now, your game should be running on the main computer. Next, on google chrome, open <code>loalhost:8000</code>, and click Rooms Leeps Lab. Your game is running on the main computer, but you need to turn on other computers and let them open the links of your game so that subjects can play the game on their own assigned computers. Follow the next step.
+
+Turn on another command prompt and type the following code:
+<pre>
+  <code class = "language-r">
+cd Dropbox/Admin/
+./launch_otree_local.sh 1 – 8
+</code>
+</pre>
+
+What the above code does is to launch other computers in the lab and computer 1 - 8 will open your games' links automatically (here, I assume your game requires 8 subjects). Of course, if you want to use certain computers, type this code: <code>./launch_otree_local.sh 1, 2, 3, 4, 5, 6, 8, 9</code>, which means you are using computer 1 - 6, and 8, 9, but not using computer 7. You can choose whichever computers you want by specifying the computer numbers in this way. 
+
+If you have not upload your game to the lab's computer. Please follow the next sections to learn how to do it.
+
+</p>
+</details>
+
+<details><summary style="color:#66CC33;" > How to Add a New Game to Lab's Computers </summary>
+<p>
+Assuming there is a new project and it’s in a repo in the GitHub of LEEPS lab. First, open the terminal and type the following code. Here, I assume you are going to clone your game from Github to the folder "Zhaoqi-MB/markets".
+
+<pre>
+  <code>
+cd Zhaoqi-MB/markets
+git clone https://github.com/Leeps-Lab/&lt;repo_name&gt;.git ./&lt;name_for_the_new_folder&gt;
+  </code>
+</pre>
+
+Open <code>setting.py</code> by:
+
+<pre>
+  <code>
+nano settings.py
+  </code>
+</pre>
+
+Save the edit by pressing <code>Ctrl+O</code>.
+
+Close the editor by pressing <code>Ctrl+X</code>.
+
+Add new entry under the list of `SESSION_CONFIGS`:
+
+<pre>
+  <code>
+dict (
+name= &#39;&lt;new_folder_name&gt;&#39;,
+display_name = &#39;&lt;Any Name You Like&gt;&#39;,
+num_demo_participants = &lt;num of players&gt;,
+app_sequence = [&#39;&lt;new_folder_name&gt;&#39;],
+config_file = &#39;&lt;demo.csv&gt;&#39;,
+),
+  </code>
+</pre>
+
+Reset the database within the virtual environment (See how to run your game in virtual environment in the next section).
+
+</p>
+</details>
+
+
+<details><summary style="color:#66CC33;" > Working Inside The Virtual Environment </summary>
+<p>
+
+Getting into virtual environment: First, open the terminal:
+
+<pre>
+  <code>
+source zhaoqi-mb/bin/activate
+  </code>
+</pre>
+
+Then Start server:
+
+<pre>
+  <code>
+cd Zhaoqi-MB/markets
+unset DATABASE_URL
+OTREE_PRODUCTION=1 otree runprodserver
+  </code>
+</pre>
+
+Reset Database:
+
+<pre>
+  <code>
+otree resetdb
+  </code>
+</pre>
+
+If it shows error or something. Try
+
+<pre>
+  <code>
+del db.sqlite3
+  </code>
+</pre>
+
+</p>
+</details>
+
+<details><summary style="color:#66CC33;" > Working Outside The Virtual Environment </summary>
+<p>
+
+Please refer to the previous section and ensure the terminal is not under virtual environment.
+
+</p>
+</details>
+
+<details><summary style="color:#66CC33;" > Update an existing game </summary>
+<p>
+
+Once you have done your edit to your game's program and have pushed the changes to Leeps Github repo. Do the following: In the command prompt, type the following. Again, I assume you uploaded your game to the folder "Zhaoqi-MB/markets".
+
+<pre>
+  <code>
+cd Zhaoqi-MB/markets
+cd &lt;game_folder_name&gt;
+git pull
+  </code>
+</pre>
+
+
+</p>
+</details>
+
+
 
